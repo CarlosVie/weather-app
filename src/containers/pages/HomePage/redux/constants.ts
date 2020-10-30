@@ -1,0 +1,23 @@
+export enum WeatherActionsType {
+  /**
+   * Initial Fetch
+   */
+  INITIAL_FETCH = 'INITIAL_FETCH',
+  FETCH_ERROR = 'FETCH_ERROR',
+  FETCH_SUCCESS = 'FETCH_SUCCESS',
+  /**
+   * Search City
+   */
+  SEARCH_CITY = 'SEARCH_CITY',
+  SEARCH_CITY_SUCCESS = 'SEARCH_CITY_SUCCESS',
+  SEARCH_CITY_FAILED = 'SEARCH_CITY_FAILED',
+  
+  /**
+   * Fetch forecast 7 days
+   */
+  FETCH_FORECAST = 'FETCH_FORECAST',
+  FETCH_FORECAST_SUCCESS = 'FETCH_FORECAST_SUCCESS',
+  FETCH_FORECAST_FAILED = 'FETCH_FORECAST_FAILED',
+}
+
+
